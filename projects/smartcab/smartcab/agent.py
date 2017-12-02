@@ -46,7 +46,7 @@ class LearningAgent(Agent):
             #self.epsilon -= 0.05
             self.epsilon = self.epsilon * 0.99
             #self.epsilon -= 0.005
-            self.alpha = 0.5
+            self.alpha = 0.65
 
 
         return None
